@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <div class="snake-game">
+      <header>
+        <div class="snake-game__score">Score: 0</div>
+      </header>
+      <div class="snake-game__grid">
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+        <div class="snake-game__grid-tile"></div>
+      </div>
+      <footer>
+        <div class="snake-game__instructions">
+          Press a directional button to start!
+        </div>
+        <button class="snake-game__button--up">^</button>
+        <div class="snake-game__buttons">
+          <button class="snake-game__button--left"><</button>
+
+          <button class="snake-game__button--down">v</button>
+          <button class="snake-game__button--right">></button>
+        </div>
+        <button class="snake-game__button--pause">pause</button>
+      </footer>
+    </div>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
