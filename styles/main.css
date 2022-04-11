@@ -21,12 +21,17 @@ body {
 body .snake-game__grid {
   margin: 10px;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
   height: 70vmin;
   width: 70vmin;
   box-shadow: 0 6px 20px 0 #000000, 0 6px 20px 0 #000000;
   border-radius: 20px;
+}
+body .snake-game__score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 body footer {
   display: flex;
