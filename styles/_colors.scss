@@ -1,8 +1,7 @@
 body {
-  background: #190000;
+  background:  radial-gradient(circle, #7a2048, #6b1f52, #58215a, #40245f, #1e2761);
 
   .snake-game__grid{
-    border-color: rgb(255, 0, 0);
-    background-color: rgb(53, 13, 17);
+    background-color: #000000;
   }
 }

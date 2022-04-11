@@ -1,13 +1,12 @@
 body {
-  background: #190000;
+  background: radial-gradient(circle, #7a2048, #6b1f52, #58215a, #40245f, #1e2761);
 }
 body .snake-game__grid {
-  border-color: red;
-  background-color: #350d11;
+  background-color: #000000;
 }
 
 .food {
-  background-color: #cabd07;
+  background-color: #f162ff;
   border: 0.25vmin solid white;
 }
 
@@ -24,9 +23,9 @@ body .snake-game__grid {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
-  height: 80vmin;
-  width: 80vmin;
-  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #f5cf54;
+  height: 70vmin;
+  width: 70vmin;
+  box-shadow: 0 6px 20px 0 #000000, 0 6px 20px 0 #000000;
   border-radius: 20px;
 }
 body footer {
@@ -36,28 +35,40 @@ body footer {
   flex-direction: column;
 }
 body button {
-  margin: 5px;
+  margin: 10px;
   border: none;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
-  padding: 7px 18px;
-  border-radius: 8px;
-  background-color: #555555;
-  color: aliceblue;
+  padding: 15px 18px;
+  border-radius: 100px;
+  background-color: #e6f4f1;
+  color: #000000;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 body button:hover {
-  background-color: #4CAF50;
+  background-color: #00C9C9;
   color: white;
+}
+body .button--arrow {
+  margin: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Comfortaa", cursive;
+  padding: 6px 25px;
+  border-radius: 100px;
+  background-color: #E6F4F1;
+  color: #000000;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .snake {
-  background-color: #007400;
-  border: 0.25vmin solid white;
+  background-color: #00C9C9;
+  border: 0.25vmin solid #02bdbd;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Permanent Marker", cursive;
   font-size: 3vmin;
-  color: #f5cf54;
+  color: #ffffff;
 }
