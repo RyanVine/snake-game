@@ -7,7 +7,7 @@ body .snake-game__grid {
 
 .food {
   background-color: #f162ff;
-  border: 0.25vmin solid white;
+  border: 0.25vmin solid #c350ce;
 }
 
 body {

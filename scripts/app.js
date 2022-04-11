@@ -32,7 +32,7 @@ tiles[currentSnakeFood[0]].classList.add("food");
 setInterval(() => moveSnake(currentDirection, currentSnake), 200);
 
 
-//make food remove when the snake and food class are on the same div
+/*make food remove when the snake and food class are on the same div
 setInterval(() => snakeEatFood(currentSnake, currentSnakeFood), 500);
 
 const snakeEatFood = (currentSnakeFood) => {
@@ -41,7 +41,7 @@ const snakeEatFood = (currentSnakeFood) => {
     tiles[currentSnakeFood].classList.remove("food");
   }
 }
-
+*/
 
 
 
@@ -154,8 +154,16 @@ const moveSnake = (direction, snake) => {
 
 
 
-//!!add a final part to the if statement that updates the snake global variable with the new location from the if statement
-//shift the snakehead++ into the snake array, then use snake.pop
+//!!              Things to add:
+
+/* . Food appears on random tile when eaten by snake
+   . Snake increases in size when food is eaten
+   . Score increases when food is eaten
+   . Game Over pops up when touching the floor or ceiling
+   . Game Over pops up when the snake touches itself
+   . Increase size of grid
+   . Difficulty increase/decrease button that increases setInterval
+   . 
 
 
-// make food push an element onto the array when a div contains both food and snake, then remove the snake class
+*/   
